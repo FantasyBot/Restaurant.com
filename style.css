@@ -73,7 +73,7 @@ html{
 
 
  .nav-hide{
-   height: 32vh;
+   min-height: 27vh;
    width: 100%;
    background: rgb(136, 130, 54);
    display: flex;
@@ -118,12 +118,20 @@ html{
    .simbol{
      display: block;
    }
+   .simbol i {
+     font-size: 1.6rem;
+   }
 
    .add-class{
      transform: translateY(0%);
    }
-  
-
+   .add-class ul li {
+     padding: 10px 0;
+   }
+   
+   .add-class ul li a {
+     font-size: 1rem;
+   }
   
  }
 
@@ -326,14 +334,15 @@ html{
   }
 
   .head-wrap h2{
-    font-size: 50px;
+    font-size: 35px;
+    margin-bottom: 20px;
   }
 
   .head-wrap p{
-    font-size: 12px;
+    font-size: 9px;
   }
   .head-wrap i{
-    font-size: 50px;
+    font-size: 35px;
   }
   .nav-hide li a{
     font-size: 18px;
