@@ -118,7 +118,7 @@ function displayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function(item) {
    
     return  `<article class="menu-item">
-               <img src=${item.img} alt="menu item" class="photo"alt=${item.title} />
+               <img src=${item.img} alt="menu item" class="photo" alt=${item.title} />
                <div class="item-info">
                  <header>
                    <h4>${item.title}</h4>
